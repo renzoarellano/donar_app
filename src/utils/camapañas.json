@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "nombre": "Comida para Puno",
+        "resumen": "Las comidas para Puno ...",
+        "distribucion":[
+            {
+                "nombre": "Sector agrícola",
+                "descrip": "Para la gente de los huertos",
+                "value": 10
+            },
+            {
+                "nombre": "Colegios y escuelas",
+                "descrip": "Almuerzos escolares",
+                "value": 40
+            },
+            {
+                "nombre": "Insumos de cocina",
+                "descrip": "Para amas de casa y sus compras diarias",
+                "value": 30
+            },
+            {
+                "nombre": "Reparticiones semanales",
+                "descrip": "Alimentos no perecibles todos los viernes en el municipio",
+                "value": 20
+            }
+        ]
+    }
+]
