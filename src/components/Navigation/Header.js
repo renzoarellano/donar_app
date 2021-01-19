@@ -1,15 +1,10 @@
 import React from 'react';
 import {Text, TouchableOpacity, View, StyleSheet, Platform} from 'react-native';
-import {DrawerActions} from '@react-navigation/native';
 import ArrowLeftWhite from '../../assets/svg/arrow-left-white';
 import Menu from '../../assets/svg/menu-white';
 import LogoDonar from '../../assets/svg/donarLogo';
 
 const CustomHeader = ({isHome, title, actived, navigation}) => {
-  console.log(
-    '🚀 ~ file: Header.js ~ line 9 ~ CustomHeader ~ navigation',
-    navigation,
-  );
   return (
     <View
       style={isHome ? styles.backgroundHeader : styles.backgroundHeaderTitles}>

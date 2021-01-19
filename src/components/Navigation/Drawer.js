@@ -14,9 +14,12 @@ import {
 import ArrowLeftBlue from '../../assets/svg/arrow-left-blue';
 import Perfil from '../../assets/svg/menu-perfil';
 import CerrarSession from '../../assets/svg/cerrar-sesion';
+
 //Screens
 import Home from '../../screens/Home';
 import Donacion from '../../screens/Donacion';
+import Detalle from '../../screens/Detalle';
+
 const Drawer = createDrawerNavigator();
 
 const MenuDrawer = () => {
@@ -83,6 +86,7 @@ const MenuDrawer = () => {
       drawerContent={(props) => <CustomDrawerContent {...props} />}>
       <Drawer.Screen name="Home" component={Home} />
       <Drawer.Screen name="Donacion" component={Donacion} />
+      <Drawer.Screen name="Detalle" component={Detalle} />
     </Drawer.Navigator>
   );
 };
